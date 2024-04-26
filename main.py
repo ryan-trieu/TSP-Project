@@ -65,7 +65,6 @@ def brute_force(distances):
     best_length = float('inf')
 
     for perm in permutations:
-        print(perm)
         length = calculate_route_length(perm, distances)
 
         if length < best_length:
